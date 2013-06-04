@@ -1,18 +1,49 @@
 {
 	"require": {
-		"pear-cakephp/cakephp": "2.3.5",
-		"cakephp/debug_kit": "2.2.*@dev",
+		"cakephp/cakephp": "*",
+		"cakephp/debug_kit": "dev-master",
+		"cakedc/search": "dev-master",
 		"slywalker/debug_kit_plus": "dev-master",
+		"slywalker/mysql_util": "dev-master",
 		"slywalker/base": "dev-master",
-		"slywalker/twitter_bootstrap": "dev-master"
+		"ccampbell/chromephp": "dev-master"
 	},
 	"config": {
-		"vendor-dir": "Vendor/"
+		"vendor-dir": "Vendor"
 	},
 	"repositories": [
 		{
-			"type": "pear",
-			"url": "http://pear.cakephp.org"
+			"type": "package",
+			"package": {
+				"name": "cakephp/cakephp",
+				"version": "2.3.5",
+				"source": {
+					"url": "git://github.com/cakephp/cakephp.git",
+					"type": "git",
+					"reference": "master"
+				},
+				"require": {
+					"composer/installers": "*"
+				}
+			},
+			"packagist": false
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "cakedc/search",
+				"type": "cakephp-plugin",
+				"version": "dev-master",
+				"source": {
+					"url": "git://github.com/CakeDC/search.git",
+					"type": "git",
+					"reference": "master"
+				},
+				"require": {
+					"composer/installers": "*"
+				}
+			},
+			"packagist": false
 		}
 	]
 }

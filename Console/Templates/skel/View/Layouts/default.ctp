@@ -33,7 +33,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<?php echo $this->fetch('meta'); ?>
 
 	<?php
-		echo $this->Html->css('/assets/bootstrap/docs/assets/css/bootstrap.css');
+		echo $this->Html->css('/assets/bootstrap/css/bootstrap.css');
 		echo $this->fetch('css');
 	?>
 	<style>
@@ -44,15 +44,15 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
-		<script src="/assets/html5shiv/dist/html5shiv.js"></script>
+		<script src="/assets/html5shiv/js/html5shiv.js"></script>
 	<![endif]-->
 
 	<!-- Fav and touch icons -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/bootstrap/docs/assets/ico/apple-touch-icon-144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/bootstrap/docs/assets/ico/apple-touch-icon-114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/bootstrap/docs/assets/ico/apple-touch-icon-72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" href="/assets/bootstrap/docs/assets/ico/apple-touch-icon-57-precomposed.png">
-	<link rel="shortcut icon" href="/assets/bootstrap/docs/assets/ico/favicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/bootstrap/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/bootstrap/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/bootstrap/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="/assets/bootstrap/ico/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" href="/assets/bootstrap/ico/favicon.png">
 </head>
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top">
@@ -92,7 +92,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		</footer>
 	</div>
 	<?php echo $this->Html->script('/assets/jquery/jquery.js'); ?>
-	<?php echo $this->Html->script('/assets/bootstrap/docs/assets/js/bootstrap.js'); ?>
+	<?php echo $this->Html->script('/assets/bootstrap/js/bootstrap.js'); ?>
 	<?php echo $this->fetch('script'); ?>
 </body>
 </html>

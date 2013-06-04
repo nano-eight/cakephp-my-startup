@@ -1,0 +1,22 @@
+{
+	"name": "cakephp",
+	"version": "0.0.1",
+	"dependencies": {
+		"jquery": "~1.9.1",
+		"bootstrap": "~2.3.2",
+		"html5shiv": "~3.6.2"
+	},
+	"exportsOverride": {
+		"bootstrap": {
+			"js": "docs/assets/js/bootstrap.js",
+			"css": "docs/assets/css/bootstrap.css",
+			"img": "docs/assets/img/glyphicons*"
+		},
+		"jquery": {
+			"js": "jquery.min.js"
+		},
+		"html5shiv": {
+			"js": "dist/*.js"
+		}
+	}
+}
